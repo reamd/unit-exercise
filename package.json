@@ -1,0 +1,29 @@
+{
+  "name": "unit-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "add.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "unit": "./node_modules/.bin/mocha --reporter mochawesome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reamd/unit-exercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reamd/unit-exercise/issues"
+  },
+  "homepage": "https://github.com/reamd/unit-exercise#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "mochawesome": "^3.0.0"
+  }
+}
